@@ -5,24 +5,19 @@ public class Main {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-        System.out.println("Entrez la couleur de la voiture");
-        String couleur = sc.nextLine();
-        boolean found = false;
-        
-        Voiture v = new Voiture();
+    String choice;
 
-        for (String color : v.AutorizedColor){
-            if(color.equals(couleur)) {
-                v.couleur = color;
-                found = true;
-                break;
-            }
-            
-        }
-        if (found) {
+        System.out.println("Selectionner la couleur de la voiture :");
+        System.out.println("1.Rouge");
+        System.out.println("2.Vert");
+        System.out.println("3.Orange");
+        System.out.println("4.Bleu");
 
-            System.out.println("erreur dans la saisie de la couleur");
-            System.exit(1);
-        }
+         System.out.println("Entrez voitre choix :");
+
+         choice = sc.nextLine();
+       
+       System.out.println("votre voiture est :" + choice );
+
     }
 }
