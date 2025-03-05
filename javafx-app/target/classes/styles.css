@@ -1,0 +1,32 @@
+.label {
+    -fx-heigh:300px;
+    -fx-width:300px;
+    -fx-text-fill: #172b58; /* Couleur du texte */
+    -fx-font-size: 20px; /* Taille du texte */
+    -fx-font-family: "Arial"; /* Police du texte */
+    -fx-font-style: italic; /* Style du texte */
+    -fx-text-alignment: center; /* Alignement du texte */
+    -fx-padding: 20px; /* Espacement autour du texte */
+    -fx-background-color: #fff; /* Fond blanc transparent */
+    
+    
+}
+
+.button {
+    -fx-padding-button: 50px; /* Espacement autour du texte */
+    -fx-background-color: #270e8d; /* Couleur de fond */
+    -fx-text-fill: #fff; /* Couleur du texte */
+    -fx-font-size: 18px; /* Taille du texte */
+    -fx-font-family: "Arial"; /* Police du texte */
+    -fx-padding: 10px 20px; /* Espacement autour du texte */
+    -fx-background-radius: 5px; /* Bords arrondis */
+    -fx-border-color: #181a8b; /* Bordure verte */
+    -fx-border-width: 2px; /* Épaisseur de la bordure */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 1); /* Ombre */
+    -fx-transition: all 0.3s; /* Transition douce */
+}
+
+.button:hover {
+    -fx-background-color: #5318c2; /* Couleur de fond au survol */
+    -fx-border-color: #161ead; /* Bordure plus foncée au survol */
+}
