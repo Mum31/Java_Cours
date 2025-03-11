@@ -1,30 +1,49 @@
 .label {
-    
     -fx-text-fill: #172b58; /* Couleur du texte */
-    -fx-font-size: 20px; /* Taille du texte */
+    -fx-font-size: 22px; /* Taille du texte */
     -fx-font-family: "Arial"; /* Police du texte */
-    -fx-font-style: italic; /* Style du texte */
+    -fx-font-weight: bold; /* Texte en gras */
     -fx-text-alignment: center; /* Alignement du texte */
     -fx-padding: 20px; /* Espacement autour du texte */
-   
-    
-    
+    -fx-background-color: #f0f4ff; /* Couleur de fond légère */
+    -fx-border-color: #cfe2ff; /* Bordure légère */
+    -fx-border-width: 1px; /* Épaisseur de la bordure */
+    -fx-border-radius: 5px; /* Bords arrondis */
 }
 
 .button {
-    -fx-padding-button: 50px; /* Espacement autour du texte */
+    -fx-padding: 10px 20px; /* Espacement autour du texte */
     -fx-background-color: #270e8d; /* Couleur de fond */
-    -fx-text-fill: #fff; /* Couleur du texte */
+    -fx-text-fill: #ffffff; /* Couleur du texte */
     -fx-font-size: 18px; /* Taille du texte */
     -fx-font-family: "Arial"; /* Police du texte */
-    -fx-padding: 10px 20px; /* Espacement autour du texte */
     -fx-background-radius: 5px; /* Bords arrondis */
-    -fx-border-color: #181a8b; /* Bordure verte */
+    -fx-border-color: #181a8b; /* Bordure */
     -fx-border-width: 2px; /* Épaisseur de la bordure */
-   
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.0, 0, 1); /* Ombre portée */
 }
 
 .button:hover {
     -fx-background-color: #5318c2; /* Couleur de fond au survol */
     -fx-border-color: #161ead; /* Bordure plus foncée au survol */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.0, 0, 1); /* Ombre plus forte au survol */
+}
+
+.table-view {
+    -fx-border-color: #cfe2ff; /* Bordure de la table */
+    -fx-border-width: 1px; /* Épaisseur de la bordure */
+    -fx-background-color: #ffffff; /* Couleur de fond de la table */
+}
+
+.table-view .table-column {
+    -fx-font-size: 16px; /* Taille du texte des colonnes */
+    -fx-text-fill: #172b58; /* Couleur du texte des colonnes */
+}
+
+.table-view .table-row {
+    -fx-background-color: #f9f9f9; /* Couleur de fond des lignes */
+}
+
+.table-view .table-row:hover {
+    -fx-background-color: #e0e7ff; /* Couleur de fond au survol des lignes */
 }
